@@ -3,6 +3,53 @@ body {
   letter-spacing: .2px;
   text-rendering: optimizeLegibility;
 }
+section  {
+  width:100%;
+}
+h1 {
+color: #2674BA;
+}
+h2 {
+color: #0099CC;
+}
+h4 {
+color: #662D91;
+}
+h5 {
+color: #444444;
+}
+.book-header h1 {
+  display: none !important;
+}
+.markdown-section table {
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.markdown-section th, td {
+  padding: 15px;
+  color: #444444;
+}
+.markdown-section tbody td, thead td {
+  position: relative;
+}
+.markdown-section th {
+  text-align: left;
+}
+.markdown-section tr:nth-child(even) {
+  background: #fbfbfb;
+}
+.markdown-section tr:nth-child(odd) {
+  background: #FFF;
+}
+.markdown-section thead th {
+  background-color: #f7f7f7;
+}
+.markdown-section tbody tr {
+  border-top: 1px solid #e9eaec;
+}
+.markdown-section tbody tr:hover {
+  background-color: rgb(107 197 255 / 30%);
+}
 .markdown-section h1,
 .markdown-section h2,
 .markdown-section h3,
@@ -58,7 +105,7 @@ body {
 }
 
 .page-wrapper {
-  top: -20px;
+  top: -15px;
 }
 
 a:focus {outline-style:none; -moz-outline-style: none;}
@@ -68,6 +115,7 @@ a:focus {outline-style:none; -moz-outline-style: none;}
 #book-search-results {
   border: solid 1px #eee;
   padding: 0 10px;
+  background-color: #eeeeee40;
 }
 
 .book-summary-title {
@@ -160,9 +208,9 @@ a:focus {outline-style:none; -moz-outline-style: none;}
 .header-inner .logo {
   float: left;
   height: 40px;
-  width: 110px;
+  width: 180px;
   background: url('../logo.png');
-  background-size: 120px 40px;
+  background-size: 180px 40px;
   background-repeat: no-repeat;
 }
 

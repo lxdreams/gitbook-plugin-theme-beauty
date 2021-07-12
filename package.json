@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-theme-beauty",
-  "version": "1.0.28",
+  "version": "1.0.33",
   "description": "gitbook plugin theme",
   "engines": {
     "gitbook": ">=3.0.0"
