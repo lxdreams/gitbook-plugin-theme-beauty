@@ -60,12 +60,12 @@ color: #444444;
   font-weight: 400;
 }
 .markdown-section h3 {
-  border-bottom: 2px solid #33a7ebd6;
+  border-bottom: 2px solid rgb(92, 157, 255);
 }
 .markdown-section h3 span {
   display: inline-block;
   font-weight: normal;
-  background: #33a7ebd6;
+  background: rgb(92, 157, 255);
   color: rgb(255, 255, 255);
   padding: 3px 10px 0px;
   border-top-right-radius: 3px;
@@ -78,6 +78,13 @@ color: #444444;
   vertical-align: bottom;
   border-bottom: 36px solid rgb(239, 235, 233);
   border-right: 20px solid transparent;
+}
+.markdown-section blockquote {
+  margin: 1em 10px;
+  padding: 6px 15px 0px 15px;
+  color: rgb(119, 131, 136);
+  background: rgb(210 228 255 / 30%);
+  border-left: 4px solid rgb(97 157 255);
 }
 .markdown-section p {
   line-height: 2;
