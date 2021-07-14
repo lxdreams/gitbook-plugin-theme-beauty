@@ -1,6 +1,6 @@
-# Gitbook theme for BingoPaaS Docs
+# Gitbook theme for theme-beauty Docs
 
-![Image](https://github.com/tonyyls/gitbook-plugin-theme-fexa/blob/master/preview.png)
+![Image](https://raw.githubusercontent.com/lxdreams/gitbook-plugin-theme-beauty/main/preview.png)
 
 ## Usage
 
@@ -12,7 +12,7 @@ Add the theme to your book's configuration `book.json` or `book.js`:
         "theme-beauty"
     ],
     "variables": {
-        "themeFexa":{
+        "themeBeauty":{
             "nav":[
                 {
                     "url":"http://...",
@@ -37,6 +37,3 @@ Install by command:
 ``` bash
 gitbook install
 ```
-
-
-Enjoy!
