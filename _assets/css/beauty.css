@@ -93,7 +93,7 @@ color: #444444;
   border-left: 4px solid rgb(97 157 255);
 }
 .markdown-section p {
-  line-height: 2;
+  line-height: 1.7;
 }
 .markdown-section img {
   padding: 8px;
@@ -164,6 +164,7 @@ a:focus {outline-style:none; -moz-outline-style: none;}
 
 .book-summary ul.summary li a:hover {
   text-decoration: none;
+  background: #ebf2fd;
 }
 
 .page-inner {
